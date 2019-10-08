@@ -1,7 +1,7 @@
 # VSCode Quectel BC66 Builder 
 * version 1.0.0
 
-# Install
+## Install
 
 Move folder **VSC_BC66** VSCode-Projects-Folder
 
