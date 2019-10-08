@@ -1,4 +1,4 @@
-##VSCode Quectel BC66 Builder 20119 Georgi Angelov
+#VSCode Quectel BC66 Builder 20119 Georgi Angelov
 * version 1.0.0
 
 
