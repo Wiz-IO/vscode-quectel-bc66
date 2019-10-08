@@ -1,0 +1,21 @@
+{
+    "env": { "SDK": "BC66_OpenCPU_NB1_SDK_V1.4" },    
+    "configurations": [
+        {
+            "name": "BC66 SDK",
+            "includePath": [
+                "${workspaceFolder}/${SDK}/include/**", 
+                "${workspaceFolder}/${SDK}/ril/inc/**",
+                "${workspaceFolder}/${SDK}/custom/config/**"
+            ],
+            "defines": [],
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": ["${workspaceRoot}"],
+                "limitSymbolsToIncludedHeaders": false
+            }
+
+        }
+    ],
+    "version": 4
+}
