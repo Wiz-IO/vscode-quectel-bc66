@@ -11,10 +11,9 @@ Open this folder and paste Quectel SDK folder
 
 VSCode - WORKSPACE - Add this folder to workspace
 
-Open .vscode/tasks.json and edit **BC66_OpenCPU_NB1_SDK_V1.4** and COM port
-
-Open .vscode/c_cpp_properties.json and edit **BC66_OpenCPU_NB1_SDK_V1.4**
-* [IntelliSense](https://code.visualstudio.com/docs/editor/intellisense)
+* Open .vscode/tasks.json and edit **BC66_OpenCPU_NB1_SDK_V1.4** and COM port
+* Open .vscode/c_cpp_properties.json and edit **BC66_OpenCPU_NB1_SDK_V1.4**
+* * [IntelliSense](https://code.visualstudio.com/docs/editor/intellisense)
 
 In **BC66_OpenCPU_NB1_SDK_V1.4** folder create your Project folder
 
