@@ -33,14 +33,14 @@ Click CTRL + SHIF + B to build or upload application
 * * [GCC](https://dl.bintray.com/platformio/dl-packages/toolchain-gccarmnoneeabi-windows-1.70201.0.tar.gz)
 
 ```
-GCC_PATH 		= C:/gccarmnoneeabi
-ENV_PATH		= $(GCC_PATH)/bin
-ENV_INC			= $(GCC_PATH)/arm-none-eabi/include
-ENV_LIB_EABI	= $(GCC_PATH)/arm-none-eabi/lib/hard
-ENV_LIB_GCC		= $(GCC_PATH)/arm-none-eabi/lib/hard
-ENV_LIB			= -L$(ENV_LIB_EABI) -L$(ENV_LIB_GCC)
-CC 			    = $(ENV_PATH)/arm-none-eabi-gcc
-OC 			    = $(ENV_PATH)/arm-none-eabi-objcopy
+GCC_PATH        = C:/gccarmnoneeabi
+ENV_PATH        = $(GCC_PATH)/bin
+ENV_INC         = $(GCC_PATH)/arm-none-eabi/include
+ENV_LIB_EABI    = $(GCC_PATH)/arm-none-eabi/lib/hard
+ENV_LIB_GCC     = $(GCC_PATH)/arm-none-eabi/lib/hard
+ENV_LIB         = -L$(ENV_LIB_EABI) -L$(ENV_LIB_GCC)
+CC              = $(ENV_PATH)/arm-none-eabi-gcc
+OC              = $(ENV_PATH)/arm-none-eabi-objcopy
 ```
 
 >If you want to help / support:   
