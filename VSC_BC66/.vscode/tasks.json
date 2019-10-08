@@ -48,7 +48,8 @@
         {
             "label"     : "Build Application",
             "type"      : "shell",
-            "command"   : "${workspaceRoot}/${input:SDK}/make/make",    
+            "command"   : "${workspaceRoot}/${input:SDK}/make/make",   
+            "args"      : ["--makefile=../Makefile"],
             "options"   : { "cwd" : "${workspaceRoot}/${input:SDK}/" },     
             "group"     : { "kind" : "build", "isDefault" : true }             
         },
