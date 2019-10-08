@@ -1,4 +1,4 @@
-# VSCode Quectel BC66 Builder 20119 Georgi Angelov
+# VSCode Quectel BC66 Builder 
 * version 1.0.0
 
 
@@ -23,7 +23,7 @@ In [ BC66_OpenCPU_NB1_SDK_V1.4 ] folder create your Project folder
 
 Open Makefile and re-edit your settings
 
-Click CTRL + SHIF + B for building...
+Click CTRL + SHIF + B 
 
 
 
