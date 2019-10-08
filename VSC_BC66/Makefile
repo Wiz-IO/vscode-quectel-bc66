@@ -1,16 +1,16 @@
 
-BUILD_DIR 			= build
-TARGET   			= APPGS3MDM32A01
+BUILD_DIR 		= build
+TARGET   		= APPGS3MDM32A01
 
-GCC_PATH 			= tools/gcc/win/gcc-arm-none-eabi
-ENV_PATH			= $(GCC_PATH)/bin
-ENV_INC				= $(GCC_PATH)/arm-none-eabi/include
+GCC_PATH 		= tools/gcc/win/gcc-arm-none-eabi
+ENV_PATH		= $(GCC_PATH)/bin
+ENV_INC			= $(GCC_PATH)/arm-none-eabi/include
 ENV_LIB_EABI		= $(GCC_PATH)/arm-none-eabi/lib/armv7e-m/fpu
-ENV_LIB_GCC			= $(GCC_PATH)/lib/gcc/arm-none-eabi/4.8.3/armv7e-m/fpu
-ENV_LIB				= -L$(ENV_LIB_EABI) -L$(ENV_LIB_GCC)
-CC 					= $(ENV_PATH)/arm-none-eabi-gcc
-OC 					= $(ENV_PATH)/arm-none-eabi-objcopy
-HG					= make/GFH_Generator
+ENV_LIB_GCC		= $(GCC_PATH)/lib/gcc/arm-none-eabi/4.8.3/armv7e-m/fpu
+ENV_LIB			= -L$(ENV_LIB_EABI) -L$(ENV_LIB_GCC)
+CC 			= $(ENV_PATH)/arm-none-eabi-gcc
+OC 			= $(ENV_PATH)/arm-none-eabi-objcopy
+HG			= make/GFH_Generator
 
 CORTEX  = -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork
 
