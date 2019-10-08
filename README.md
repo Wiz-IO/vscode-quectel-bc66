@@ -3,12 +3,12 @@
 
 ## Install
 
-Move folder **VSC_BC66** VSCode-Projects-Folder
+Move folder **VSC_BC66** to VSCode - Projects - Workspace folder
 
 Open folder **VSC_BC66** and paste Quectel SDK folder
     example: **BC66_OpenCPU_NB1_SDK_V1.4**
 
-VSCode - WORKSPACE - Add folder **VSC_BC66** to workspace
+VSCode - Workspace - Add folder **VSC_BC66** to workspace
 
 * Open .vscode/tasks.json and edit **BC66_OpenCPU_NB1_SDK_V1.4** and COM port
 * Open .vscode/c_cpp_properties.json and edit **BC66_OpenCPU_NB1_SDK_V1.4**
@@ -17,7 +17,7 @@ VSCode - WORKSPACE - Add folder **VSC_BC66** to workspace
 
 In **BC66_OpenCPU_NB1_SDK_V1.4** folder create your Project folder
 
-Open Makefile and re-edit your settings
+Open VSC_BC66/Makefile and re-edit your settings
 
 Click CTRL + SHIF + B to build or upload application
 
