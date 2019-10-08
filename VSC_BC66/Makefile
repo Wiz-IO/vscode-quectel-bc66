@@ -68,4 +68,4 @@ clean:
 	@mkdir -p $(BUILD_DIR)
 	
 start:
-	@echo "-= VSCode Quectel BC66 OpenCPU 2016 Georgi Angelov =-"	
+	@echo "-= VSCode Quectel BC66 OpenCPU 2016 Georgi Angelov =-" 	
