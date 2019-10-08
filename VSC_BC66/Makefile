@@ -60,6 +60,7 @@ $(BUILD_DIR)/$(TARGET).bin: $(BUILD_DIR)/$(TARGET).elf
 	@$(OC) -O binary $< $@
 	@echo " * CREATE APP:" $@
 	@$(HG) $(BUILD_DIR)/$(TARGET).bin
+	@cmd /C copy /y libs/app_image_bin.cfg $(BUILD_DIR)
 
 clean:
 	@echo " * CLEAN"
