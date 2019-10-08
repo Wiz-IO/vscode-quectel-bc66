@@ -23,6 +23,15 @@ Click CTRL + SHIF + B to build or upload application
 
 ![Project](https://raw.githubusercontent.com/Wiz-IO/vscode-quectel-bc66/master/shot.png) 
 
+
+## Other platforms and compilers ( edit Makefile paths to compiler )
+* DARWIN
+* * [GCC](https://dl.bintray.com/platformio/dl-packages/toolchain-gccarmnoneeabi-darwin_x86_64-1.70201.0.tar.gz)
+* LINUX
+* * [GCC](https://dl.bintray.com/platformio/dl-packages/toolchain-gccarmnoneeabi-linux_x86_64-1.70201.0.tar.gz)
+* WINDOWS
+* * [GCC](https://dl.bintray.com/platformio/dl-packages/toolchain-gccarmnoneeabi-windows-1.70201.0.tar.gz)
+
 >If you want to help / support:   
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ESUP9LCZMZTD6)
 
