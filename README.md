@@ -1,5 +1,5 @@
 # VSCode Quectel BC66 Builder 
-* version 1.0.0
+* version 1.0.1
 
 ## Install
 
